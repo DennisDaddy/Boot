@@ -1,4 +1,4 @@
-#Weconnect
+# Weconnect
 
 This is Andela Bootcamp  application challenge that brings businesss and individuals together.
 This platform creates awaresness and gives the users ability to write reviews about the business they have interacted with.
