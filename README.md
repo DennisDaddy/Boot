@@ -1,1 +1,3 @@
-This is a Andela Bootcamp app that brings business and individuals together
+
+This is Andela Bootcamp Weconnect Application that connects business and individuals together
+
