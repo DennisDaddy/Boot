@@ -5,34 +5,48 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+     body {
+     background-image: url("image.jpg");
+     color: white;
+    }
+   </style>
 </head>
 <body>
-	<div class="navbar navbar-expand-lg navbar-light bg-light" >
-		<a class="navbar-brand" href="index.html">WeConnect</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupported">
-			<span class="navbar-toggler-icon"></span>			
-		</button>
+	
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>					
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="allbusiness.html">Businesses <span class="sr-only">(current)</span></a>					
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="businessprofile.html">Business Profile <span class="sr-only">(current)</span></a>					
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="profile.html">User Profile <span class="sr-only">(current)</span></a>					
-				</li>
-			</ul>
-			
-		</div>
+       <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+       <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         
+       </button>
+       <a class="navbar-brand" href="#">WeConnect</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+		 <li class="active"><a href="index.html">Home</a></li>
+		 <li class="active"><a href="allbusiness.html">Businesses</a></li>					
+		 <li class="active"><a href="businessprofile.html">Business Profile</a></li>
+		 <li class="active"><a href="profile.html"> User Profile</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+		
+	</div>
 
    <div class="container">
-	<form>
+   	<h1 style="color: white"> Register A Business</h1><hr>
+
+   	<div class="row">
+   		<div class="col-sm-4">
+   			<form>
 		<div class="form-group">
 			<label>Business  Name:</label>
 			<input type="text" class="form-control" name="">
@@ -50,15 +64,39 @@
 			<input type="text" class="form-control" name="">
 			
 		</div>
+
+		<button class="btn btn-success"> Register Business</button>
 		
 	</form>
+   			
+   		</div>
 
-	 <nav>
-		<div class="footer">
-		Copyright @2018			
-		 				
-		</div>
-      </nav>
+
+   		<div class="col-sm-8">				
+				<h2 style="color: white">What We Offer</h2>
+				<p>This is a simple WeConect Application that connects business and individuals togetherhis is a simple WeConect Application that connects business and individuals togetherhis is a simple WeConect Application that connects business and individuals togetherhis is a simple WeConect Application that connects business and individuals togetherhis is a simple WeConect Application that connects business and individuals togetherhis is a simple WeConect Application that connects business and individuals togetherhis is a simple WeConect Application that connects business and individuals togetherhis is a simple WeConect Application that connects business and individuals togetherhis is a simple WeConect Application that connects business and individuals togetherhis is a simple WeConect Application that connects business and individuals togetherhis is a simple r</p>
+				
+			</div>
+   		
+   	</div>
+	
+
+		<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+			<div class="container">
+				<div class="navbar-text pull-left">
+					<p>All rights Reserved @2018</p>					
+				</div>
+				<div class="navbar-text pull-right">
+					<a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+				        <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+				        <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+				        <a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
+					
+				</div>
+				
+			</div>
+			
+		</div>   
 
 	</div>
 	<script src="js/jquery-1.12.0.min.js"></script>
