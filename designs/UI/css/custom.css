@@ -6,8 +6,13 @@
 body{
 	padding-top: 70px;
 	padding-bottom: 100px;
-}
+	
 
 .bg-grey {
 	background-color: #f9f9f9;
+
+}
+
+#form{
+	width: 50%;
 }
